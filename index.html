@@ -10,7 +10,7 @@
   <header class="dashboard-header">
     <label class="theme-toggle" aria-label="Toggle dark mode">
       <input type="checkbox" id="theme-toggle-input" />
-      <span class="toggle-track"><span class="toggle-thumb"></span></span>
+      <span class="toggle-track"><span class="toggle-thumb"></span></span> <span class="theme-text"></span>
     </label>
   </header>
 
@@ -22,6 +22,7 @@
     </section>
 
     <section id="timer-widget" class="widget">
+      <h3 class="widget-title">Fokus Timer</h3>
       <div id="timer-display">25:00</div>
       <div id="timer-error" class="error-msg hidden"></div>
       <div class="timer-controls">
@@ -36,6 +37,7 @@
     </section>
 
     <section id="todo-widget" class="widget">
+      <h3 class="widget-title">To-Do List</h3>
       <div class="todo-input-row">
         <input id="todo-input" type="text" placeholder="Add a task…" />
         <button id="todo-add">Add</button>
@@ -46,6 +48,7 @@
     </section>
 
     <section id="quicklinks-widget" class="widget">
+      <h3 class="widget-title">Quick Links</h3>
       <div class="quicklinks-input-row">
         <input id="link-label-input" type="text" placeholder="Label" />
         <input id="link-url-input"   type="text" placeholder="https://…" />

@@ -70,7 +70,7 @@ const Greeting = {
     const month   = months[date.getMonth()];
     const day     = date.getDate();
     const year    = date.getFullYear();
-    return `${weekday}, ${month} ${day}, ${year}`;
+    return `${weekday}, ${day} ${month} ${year}`;
   },
   tick() {
     const now = new Date();
